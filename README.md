@@ -20,7 +20,7 @@ A personal homepage and CV built as a static website. The content is based on Lu
 
 This site is already configured to work with GitHub Pages. The published URL is:
 
-- `https://lucasmlousada.github.io/project1/`
+- `https://lucasmlousada.github.io/aboutme/`
 
 ## Update the site
 
