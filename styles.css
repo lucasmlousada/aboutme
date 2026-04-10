@@ -1,8 +1,8 @@
 :root {
-  color-scheme: light;
+  color-scheme: dark;
   font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-  background: #f5f7fb;
-  color: #1f2937;
+  background: #090b14;
+  color: #e2e8f0;
 }
 
 * {
@@ -14,7 +14,8 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  background: linear-gradient(180deg, #eef2ff 0%, #f8fafc 100%);
+  background: radial-gradient(circle at top, rgba(67, 56, 202, 0.18), transparent 35%),
+    linear-gradient(180deg, #0f172a 0%, #070a12 100%);
 }
 
 header {
@@ -24,11 +25,11 @@ header {
 .hero {
   max-width: 1100px;
   margin: 0 auto;
-  background: rgba(255, 255, 255, 0.92);
-  border: 1px solid rgba(148, 163, 184, 0.28);
+  background: rgba(15, 23, 42, 0.92);
+  border: 1px solid rgba(148, 163, 184, 0.18);
   border-radius: 32px;
   padding: 3rem;
-  box-shadow: 0 24px 60px rgba(15, 23, 42, 0.08);
+  box-shadow: 0 30px 80px rgba(0, 0, 0, 0.45);
   display: grid;
   grid-template-columns: minmax(0, 1.4fr) minmax(220px, 0.8fr);
   gap: 2rem;
@@ -41,7 +42,7 @@ header {
 
 .eyebrow {
   margin: 0 0 1rem;
-  color: #4338ca;
+  color: #a78bfa;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.12em;
@@ -52,11 +53,12 @@ header {
   margin: 0 0 1.25rem;
   font-size: clamp(2.5rem, 4.5vw, 3.5rem);
   line-height: 1.05;
+  color: #f8fafc;
 }
 
 .hero p {
   margin: 0 0 1.75rem;
-  color: #475569;
+  color: #cbd5e1;
   font-size: 1.05rem;
   line-height: 1.8;
 }
@@ -75,8 +77,8 @@ header {
 .hero-avatar img {
   width: min(240px, 100%);
   border-radius: 32px;
-  border: 1px solid rgba(148, 163, 184, 0.3);
-  box-shadow: 0 20px 45px rgba(15, 23, 42, 0.08);
+  border: 1px solid rgba(148, 163, 184, 0.22);
+  box-shadow: 0 20px 45px rgba(0, 0, 0, 0.55);
 }
 
 .button {
@@ -86,7 +88,7 @@ header {
   min-width: 160px;
   padding: 0.95rem 1.8rem;
   border-radius: 9999px;
-  background: #4338ca;
+  background: #7c3aed;
   color: #fff;
   text-decoration: none;
   font-weight: 600;
@@ -95,16 +97,17 @@ header {
 
 .button:hover {
   transform: translateY(-1px);
-  background: #3730a3;
+  background: #5b21b6;
 }
 
 .button-secondary {
-  background: #e0e7ff;
-  color: #4338ca;
+  background: rgba(148, 163, 184, 0.12);
+  color: #e2e8f0;
+  border: 1px solid rgba(148, 163, 184, 0.18);
 }
 
 .button-secondary:hover {
-  background: #c7d2fe;
+  background: rgba(148, 163, 184, 0.18);
 }
 
 main {
@@ -121,6 +124,7 @@ main {
 .section h2 {
   margin: 0 0 1.25rem;
   font-size: 2rem;
+  color: #eef2ff;
 }
 
 .section p,
@@ -128,7 +132,7 @@ main {
 .section li {
   margin: 0;
   line-height: 1.75;
-  color: #475569;
+  color: #cbd5e1;
 }
 
 .section ul {
@@ -151,11 +155,11 @@ main {
 }
 
 .stat-card {
-  background: #fff;
-  border: 1px solid rgba(148, 163, 184, 0.18);
+  background: #111827;
+  border: 1px solid rgba(148, 163, 184, 0.14);
   border-radius: 1.5rem;
   padding: 1.75rem;
-  box-shadow: 0 12px 30px rgba(15, 23, 42, 0.05);
+  box-shadow: 0 18px 40px rgba(0, 0, 0, 0.35);
 }
 
 .stat-card div {
@@ -165,13 +169,13 @@ main {
 .stat-card strong {
   display: block;
   margin-bottom: 0.5rem;
-  color: #0f172a;
+  color: #e2e8f0;
 }
 
 .stat-card p,
 .stat-card a {
   margin: 0;
-  color: #475569;
+  color: #cbd5e1;
   text-decoration: none;
 }
 
@@ -184,10 +188,10 @@ main {
 
 .skill-pill {
   padding: 0.95rem 1rem;
-  background: #fff;
+  background: rgba(148, 163, 184, 0.1);
   border: 1px solid rgba(148, 163, 184, 0.18);
   border-radius: 9999px;
-  color: #334155;
+  color: #e2e8f0;
   font-weight: 600;
 }
 
@@ -200,14 +204,15 @@ main {
 
 .tool-card {
   padding: 1.5rem;
-  background: #fff;
-  border: 1px solid rgba(148, 163, 184, 0.18);
+  background: #111827;
+  border: 1px solid rgba(148, 163, 184, 0.14);
   border-radius: 1.5rem;
-  box-shadow: 0 12px 30px rgba(15, 23, 42, 0.05);
+  box-shadow: 0 18px 40px rgba(0, 0, 0, 0.35);
 }
 
 .tool-card h3 {
   margin-top: 0;
+  color: #eef2ff;
 }
 
 .experience-list {
@@ -217,18 +222,19 @@ main {
 
 .experience-card {
   padding: 1.75rem;
-  background: #fff;
+  background: #111827;
   border-radius: 1.5rem;
-  border: 1px solid rgba(148, 163, 184, 0.18);
-  box-shadow: 0 12px 30px rgba(15, 23, 42, 0.05);
+  border: 1px solid rgba(148, 163, 184, 0.14);
+  box-shadow: 0 18px 40px rgba(0, 0, 0, 0.35);
 }
 
 .experience-card h3 {
   margin-top: 0;
+  color: #eef2ff;
 }
 
 .meta {
-  color: #64748b;
+  color: #94a3b8;
   margin: 0.35rem 0 1rem;
 }
 
@@ -242,13 +248,14 @@ main {
 footer {
   text-align: center;
   padding: 1rem 1.5rem;
-  color: #64748b;
+  color: #94a3b8;
 }
 
 code {
-  background: rgba(148, 163, 184, 0.18);
+  background: rgba(148, 163, 184, 0.12);
   padding: 0.2rem 0.35rem;
   border-radius: 0.35rem;
+  color: #e2e8f0;
 }
 
 @media (max-width: 860px) {
