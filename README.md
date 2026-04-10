@@ -7,7 +7,7 @@ A personal homepage and CV built as a static website. The content is based on Lu
 - `index.html` — homepage with profile, experience, education, and contact links
 - `styles.css` — responsive styling for desktop and mobile
 - `script.js` — footer year and small interactive behavior
-- `Profile.pdf` — downloadable CV
+- `Profile.pdf` — downloadable CV generated from this website-style layout
 
 ## Run locally
 

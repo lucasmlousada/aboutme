@@ -191,6 +191,25 @@ main {
   font-weight: 600;
 }
 
+.tool-grid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  margin-bottom: 1rem;
+}
+
+.tool-card {
+  padding: 1.5rem;
+  background: #fff;
+  border: 1px solid rgba(148, 163, 184, 0.18);
+  border-radius: 1.5rem;
+  box-shadow: 0 12px 30px rgba(15, 23, 42, 0.05);
+}
+
+.tool-card h3 {
+  margin-top: 0;
+}
+
 .experience-list {
   display: grid;
   gap: 1.5rem;
