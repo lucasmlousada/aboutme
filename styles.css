@@ -261,54 +261,6 @@ code {
   color: #e2e8f0;
 }
 
-.album {
-  background: rgba(15, 23, 42, 0.92);
-  border: 1px solid rgba(148, 163, 184, 0.18);
-  border-radius: 24px;
-  padding: 2.5rem;
-  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.4);
-}
-
-.album h2 {
-  margin: 0 0 0.5rem;
-  font-size: 1.75rem;
-  color: #eef2ff;
-}
-
-.album p {
-  margin: 0 0 1.5rem;
-  color: #94a3b8;
-  font-size: 1rem;
-}
-
-.album iframe {
-  border-radius: 12px;
-  margin-bottom: 0.5rem;
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
-}
-
-.suno-profile {
-  margin-top: 2.5rem;
-}
-
-.suno-profile h2 {
-  margin: 0 0 0.5rem;
-  font-size: 1.75rem;
-  color: #eef2ff;
-}
-
-.suno-profile p {
-  margin: 0 0 1.5rem;
-  color: #94a3b8;
-  font-size: 1rem;
-}
-
-.suno-card {
-  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.4);
-  border-radius: 24px;
-  overflow: hidden;
-}
-
 @media (max-width: 860px) {
   .hero {
     grid-template-columns: 1fr;
